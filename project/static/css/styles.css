@@ -1,0 +1,32 @@
+/* Dow Jones colors */
+/* UNED colors */
+/* line 7, ../../PycharmProjects/Flask-desk-application/project/static/scss/styles.scss */
+.custom-one {
+  background-color: #0C2A31; }
+
+/* line 7, ../../PycharmProjects/Flask-desk-application/project/static/scss/styles.scss */
+.custom-two {
+  background-color: #0C2A31; }
+
+/* line 7, ../../PycharmProjects/Flask-desk-application/project/static/scss/styles.scss */
+.custom-three {
+  background-color: #0C2A31; }
+
+/* line 7, ../../PycharmProjects/Flask-desk-application/project/static/scss/styles.scss */
+.custom-four {
+  background-color: #0C2A31; }
+
+/* line 7, ../../PycharmProjects/Flask-desk-application/project/static/scss/styles.scss */
+.custom-five {
+  background-color: #0C2A31; }
+
+/* line 11, ../../PycharmProjects/Flask-desk-application/project/static/scss/styles.scss */
+.custom-dj {
+  /* width: number(); */
+  margin-top: 70px !important;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  color: #0000ff; }
+
+/*# sourceMappingURL=styles.css.map */

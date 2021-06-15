@@ -1,0 +1,18 @@
+@import 'utilities/variables';
+@import 'utilities/functions';
+@import 'utilities/mixins';
+
+$list: one two three four five;
+@each $i in $list {
+	.custom-#{$i} { background-color: $darkest-dj; }
+
+}
+
+.custom-dj {
+  /* width: number(); */
+  margin-top: 70px !important;
+  @include big-blue-text;
+}
+
+
+

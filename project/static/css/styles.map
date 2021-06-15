@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../scss/styles.scss",
+		"../scss/utilities/_variables.scss",
+		"../scss/utilities/_functions.scss",
+		"../scss/utilities/_mixins.scss"
+	],
+	"sourcesContent": [
+		"@import 'utilities/variables';\n@import 'utilities/functions';\n@import 'utilities/mixins';\n\n$list: one two three four five;\n@each $i in $list {\n\t.custom-#{$i} { background-color: $darkest-dj; }\n\n}\n\n.custom-dj {\n  /* width: number(); */\n  margin-top: 70px !important;\n  @include big-blue-text;\n}\n\n\n\n",
+		"/* Dow Jones colors */\n$black-dj: #000;\n$darkest-dj: #0C2A31;\n$darker-dj: #005A87;\n$dark-dj: #006BA1;\n$darky-dj: #394859;\n$red-dj: #FF0000;\n$admin-dj: #006BA1;\n$adminer-dj: #007CBA;\n$office-dj: #01FEFF;\n$officer-dj: #8D9CA9;\n$white-dj: #FFF;\n\n\n/* UNED colors */\n$black-uned: #000;\n$darkest-uned: #212529;\n$darker-uned: #01382B;\n$office-uned: #00533F;\n$magent-uned: #90214A;\n$light-uned: #6C757D;\n$white-uned: #FFF;",
+		"@function number($num: 500px){\n  @return  $num/2;\n}",
+		"@mixin big-blue-text {\nfont-family: Arial;\nfont-size: 25px;\nfont-weight: bold;\ncolor:#0000ff;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,sBAAsB;AActB,iBAAiB;;ADRhB,AAAA,WAAW,CAAG;EAAE,gBAAgB,ECJpB,OAAO,GDI8B;;;AAAjD,AAAA,WAAW,CAAG;EAAE,gBAAgB,ECJpB,OAAO,GDI8B;;;AAAjD,AAAA,aAAa,CAAC;EAAE,gBAAgB,ECJpB,OAAO,GDI8B;;;AAAjD,AAAA,YAAY,CAAE;EAAE,gBAAgB,ECJpB,OAAO,GDI8B;;;AAAjD,AAAA,YAAY,CAAE;EAAE,gBAAgB,ECJpB,OAAO,GDI8B;;;AAIlD,AAAA,UAAU,CAAC;EACT,sBAAsB;EACtB,UAAU,EAAE,eAAe;EGX7B,WAAW,EAAE,KAAK;EAClB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EAAC,OAAO,GHUZ"
+}
