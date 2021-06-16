@@ -1,2 +1,2 @@
-# Flask-login
-Flask-login plugin test 1
+# flask-login-example
+Flask-Login extension example
